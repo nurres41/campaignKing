@@ -1,0 +1,39 @@
+.filter{
+    display: flex;
+    gap: .5rem;
+    margin-top: 3rem !important;
+}
+
+.filterWrapper{
+    margin: 1rem !important;
+}
+
+.filterWrapper > div > p {
+    font-size: 1.5rem !important;
+}
+
+.filterItem{
+    position:relative;
+}
+
+.filterItem:after{
+    position:absolute;
+    content:'Start Date';
+    min-width: 100px;
+    top: -1.5rem;
+    left: .2rem;
+    color: green;
+}
+
+.filterSecondItem{
+    position: relative;
+}
+
+.filterSecondItem:after{
+    position:absolute;
+    content:'End Date';
+    min-width: 100px;
+    top: -1.5rem;
+    left: .2rem;
+    color: red;
+}

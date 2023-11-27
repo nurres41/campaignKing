@@ -1,0 +1,11 @@
+.headerWrapper{
+    display: flex;
+    align-items: center;
+    justify-center: space-evenly;
+    width:100%;
+}
+
+.headerWrapper > h2{
+    margin-right: auto;
+    margin-left: auto;
+}
