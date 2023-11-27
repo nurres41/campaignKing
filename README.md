@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Usage
+### Adding Campaigns
+You can add campaigns to the application by calling the window.AddCampaigns function in the browser console. For example:
+
+```javascript
+window.AddCampaigns([
+  { id: 13, name: 'nuri', startDate: '12/12/2012', endDate: '12/12/2041', budget: 123123 }
+]);
+
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
